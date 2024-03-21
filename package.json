@@ -1,0 +1,32 @@
+{
+  "name": "omnisalias",
+  "version": "1.0.0",
+  "description": "A TypeScript-enhanced Node.JS fork of broadlinkjs, designed for interacting with RM devices in homebridge-broadlink-rm. Now includes a feature for handling multiple requests to the same device, with a specific focus on supporting homebridge-broadlink-window-covering.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattWunsch/omnisalias.git"
+  },
+  "keywords": [
+    "vel",
+    "IoT",
+    "remote",
+    "control"
+  ],
+  "author": "JuniorDooley",
+  "license": "MIT",
+  "homepage": "https://github.com/MattWunsch/omnisalias.git",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "neramirez-broadlink-ts": "^0.1.9",
+    "winston": "^3.11.0"
+  }
+}
